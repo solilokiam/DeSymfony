@@ -1,0 +1,8 @@
+parameters:
+    solilokiam_request_listener.example.class: Solilokiam\RequestListenerBundle\EventListener\RequestListener
+
+services:
+    solilokiam_request_listener.example:
+        class: %solilokiam_request_listener.example.class%
+        tags:
+          - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }

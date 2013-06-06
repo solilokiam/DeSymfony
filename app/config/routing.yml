@@ -1,0 +1,3 @@
+solilokiam_front:
+    resource: "@SolilokiamFrontBundle/Resources/config/routing.yml"
+    prefix:   /

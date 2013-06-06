@@ -1,0 +1,3 @@
+solilokiam_front_homepage:
+    pattern:  /front/{name}
+    defaults: { _controller: SolilokiamFrontBundle:Default:index, _format: html }
