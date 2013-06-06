@@ -1,1 +1,5 @@
-Hello {{ name }}! You're using normal site version.
+{% extends '::base.html.twig' %}
+
+{% block body %}
+<p>Hello {{ name }}! You're using <strong>normal</strong> site version.</p>
+{% endblock %}

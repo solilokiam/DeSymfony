@@ -1,1 +1,5 @@
-Hello {{ name }}! You're using tv site version.
+{% extends '::base.html.twig' %}
+
+{% block body %}
+<p>Hello {{ name }}! You're using <strong>tv</strong> site version.</p>
+{% endblock %}
